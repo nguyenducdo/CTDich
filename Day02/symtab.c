@@ -315,7 +315,7 @@ void exitBlock(void) {
 
 Object* lookupObject(char *name) {
   // TODO
-  
+  return findObject(symtab->currentScope->objList,name);
 }
 
 void declareObject(Object* obj) {

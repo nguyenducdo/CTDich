@@ -1,0 +1,9 @@
+Program Example1;
+Begin
+ DO
+     BEGIN
+       S := S + A(.I.);
+       I := I + 1;
+     END
+    WHILE I <= N
+End.
